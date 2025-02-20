@@ -30,19 +30,19 @@ git clone https://github.com/rikarani/laravel-vercel
 
 ### 2. buka Vercel, trus Add New Project
 
-![Add New Project](https://cdn.discordapp.com/attachments/1059928632912527391/1282804769588776960/Screenshot_873.png?ex=66e0b08a&is=66df5f0a&hm=b10347bedb1dfbebf33f69d9e27c8fdc411e5016a1e58189432d005e9d8908c7&)
+![Add New Project](https://cdn.discordapp.com/attachments/1059928632912527391/1282804769588776960/Screenshot_873.png?ex=67b83dca&is=67b6ec4a&hm=2913fecfbb46b0c92227d9f66adb0265ffb254ed30a9b0d614a78e4d9022bc52&)
 
 ### 3. Import Project
 
-![Import Project](https://cdn.discordapp.com/attachments/1059928632912527391/1282804817181540413/Screenshot_874.png?ex=66e0b095&is=66df5f15&hm=08724874acb2fec3b2348d0b002c776232aa5ea3092200c1a6d1fac6fae926ca&)
+![Import Project](https://cdn.discordapp.com/attachments/1059928632912527391/1282804817181540413/Screenshot_874.png?ex=67b83dd5&is=67b6ec55&hm=af71b963a90107d056e2d60601959ca838c62f59a0a3a6d233f0263865263a94&)
 
 ### 4. Deploy Project
 
-![Deploy Project](https://cdn.discordapp.com/attachments/1059928632912527391/1282804855781593209/Screenshot_875.png?ex=66e0b09e&is=66df5f1e&hm=ecc422ef06db06c65467946196b5ba12152fcbfac893cedda0c8ab5fd6ede6a6&)
+![Deploy Project](https://cdn.discordapp.com/attachments/1059928632912527391/1282804855781593209/Screenshot_875.png?ex=67b83dde&is=67b6ec5e&hm=6d5194d6ebaecf21fff66f18d4266b9fa31b02336afa2487c4121e21e868e5ae&)
 
 ### 5. harusnya dapet error, tapi takpa soalnya ada beberapa setting yang mesti diatur
 
-![Error](https://cdn.discordapp.com/attachments/1059928632912527391/1282806006379712544/Screenshot_876.png?ex=66e0b1b1&is=66df6031&hm=d98cd9a646ce7bcb452b319b76de40a1585f55215d87801466fafe0c2c59cf3b&)
+![Error](https://cdn.discordapp.com/attachments/1059928632912527391/1282806006379712544/Screenshot_876.png?ex=67b83ef1&is=67b6ed71&hm=59e78e3b6a1592c774d790cc67aa4fc3d53152915e1e742c4d3e1b79266f433d&)
 
 ---
 
@@ -56,13 +56,13 @@ buka `Project Settings > General`, ada beberapa hal yang mesti diubah
 
   ubah Framework Preset jadi `Other`, trus override Output Directory menjadi `public`, kemudian **Save**
 
-  ![Build & Development Settings](https://cdn.discordapp.com/attachments/1059928632912527391/1282806403647406151/Screenshot_877.png?ex=66e0b210&is=66df6090&hm=9d63f986675510095d6ccc9795318cef8df4787243690b306bb136f76b14b058&)
+  ![Build & Development Settings](https://cdn.discordapp.com/attachments/1059928632912527391/1282806403647406151/Screenshot_877.png?ex=67b83f50&is=67b6edd0&hm=52df14eb1ea43059216c283844aa4ca9df5584e8a06acf74d18f5351b1b2d924&)
 
 - #### Node.js Version
 
   ubah Node.js Version menjadi 18.x, kemudian **Save**
 
-  ![Node.js Version](https://cdn.discordapp.com/attachments/1059928632912527391/1282806443224989736/Screenshot_878.png?ex=66e0b219&is=66df6099&hm=8615cfbe5de1851267afb4fe9f3fa996601fb8835b5696327b7fb40bffadf64d&)
+  ![Node.js Version](https://cdn.discordapp.com/attachments/1059928632912527391/1282806443224989736/Screenshot_878.png?ex=67b83f59&is=67b6edd9&hm=97f2107736ad9b3cf588066f4f0ed96026ff6148e8348f00e61d872fcaaf4e09&)
 
 ### 2. Setting Environment Variables
 
@@ -74,19 +74,19 @@ buka `Project Settings > Environment Variables` dan tambahkan Environment Variab
 - APP_DEBUG => false,
 - APP_TIMEZONE => `(sesuaikan)`
 
-![Environment Variables](https://cdn.discordapp.com/attachments/1059928632912527391/1282812994983694447/Screenshot_883.png?ex=66e0b833&is=66df66b3&hm=032282c63f319ee0d9d32ae25674782bbbc6520dd6ddc1a764fd42be5090a322&)
+![Environment Variables](https://cdn.discordapp.com/attachments/1059928632912527391/1282812994983694447/Screenshot_883.png?ex=67b84573&is=67b6f3f3&hm=4daeb86839a4869a4c312a6cba51394a7be8a9e532554aa2387b305ca0223595&)
 
 ### 3. Redeploy
 
 buka `Deployments`, trus Redeploy
 
-![Redeploy](https://cdn.discordapp.com/attachments/1059928632912527391/1282809647622914128/Screenshot_880.png?ex=66e0b515&is=66df6395&hm=40d852446e9b3d5c6dac9d734228b79572b07b366c88460da1675ff648c62293&)
+![Redeploy](https://cdn.discordapp.com/attachments/1059928632912527391/1282809647622914128/Screenshot_880.png?ex=67b84255&is=67b6f0d5&hm=b1d8097a7b7b0314ba36a91a8dd9b11f599e1b2f5a96d8883b938371c7620fa9&)
 
 ### 4. Ambil Deployment URL
 
 kalo deploymentnya sukses (gak masalah kalo CSS & JS nya enggak keload), ntar dapet **Deployment URL**, nah copy aja URLnya
 
-![Redeploy Result](https://cdn.discordapp.com/attachments/1059928632912527391/1282811671483519017/Screenshot_882.png?ex=66e0b6f7&is=66df6577&hm=2c1ced8c11cb3929c77cf2aa437a13eb01945cde68a44294832b0d24c600b1c1&)
+![Redeploy Result](https://cdn.discordapp.com/attachments/1059928632912527391/1282811671483519017/Screenshot_882.png?ex=67b84437&is=67b6f2b7&hm=a0ba0a468a54bd9a9b33d56217d28ca4cf3e0321f36b509581884c5c4cfcb284&)
 
 ### 5. Setting Environment Variables (lagi)
 
@@ -95,19 +95,19 @@ buka lagi `Project Settings > Environment Variables` dan tambahkan Environment V
 - APP_URL => `(paste aja Deployment URLnya)`
 - ASSET_URL => `(paste aja Deployment URLnya)`
 
-![Environment Variable](https://cdn.discordapp.com/attachments/1059928632912527391/1282813472350011402/Screenshot_884.png?ex=66e0b8a5&is=66df6725&hm=dc41435d041dc54403fa8b9d083c30090b6354ab91fcec08d26b1725fdcb9e82&)
+![Environment Variable](https://cdn.discordapp.com/attachments/1059928632912527391/1282813472350011402/Screenshot_884.png?ex=67b845e5&is=67b6f465&hm=0aa49047ce8c00729016077832a62657eda2d1a7af486a23f5292200d2fa9695&)
 
 ### 6. Redeploy (lagi)
 
-buka lagi `Deployments`, trus Redeploy
+buka lagi `Deployments`, trus Redeploy dari yang terbaru
 
-![Redeploy (lagi)](https://cdn.discordapp.com/attachments/1059928632912527391/1282814169187352616/Screenshot_885.png?ex=66e0b94b&is=66df67cb&hm=b1f6fe5367ba419b736517cff5e3eb7fe41441100c7e3074ef159bd4809ab7fb&)
+![Redeploy (lagi)](https://cdn.discordapp.com/attachments/1059928632912527391/1282814169187352616/Screenshot_885.png?ex=67b8468b&is=67b6f50b&hm=e1f9f75478e7066ff73b5e8b55bee32eee743645ba4feeb9ec9fc759a00fdbea&)
 
 ### 7. Selesai
 
 sampai disini, seharusnya sudah berjalan dengan normal dan preview dari website bisa keliatan
 
-![End](https://cdn.discordapp.com/attachments/1059928632912527391/1282814949672095744/Screenshot_886.png?ex=66e0ba05&is=66df6885&hm=308da0b7fe53ed83b52be8e05494ffeec0365654a0795d9d3645d403210b4911&)
+![End](https://cdn.discordapp.com/attachments/1059928632912527391/1282814949672095744/Screenshot_886.png?ex=67b84745&is=67b6f5c5&hm=d590be23d72cb409403c0d68513469bccdf6a995e4327ae20dfb8a548449bfbe&)
 
 ### 8. Happy Coding
 
